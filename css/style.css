@@ -118,7 +118,13 @@ html{
     padding:15px;
     position: relative;
     margin-bottom: 40px;
+    border: 1px solid rgba(133, 130, 130, 0.692);
+    border-radius: 8px;
+    transition: .3s;
 
+}
+.specila-box:hover{
+    transform: translateY(-10px);
 }
 .specila-box::after {
     position: absolute;
