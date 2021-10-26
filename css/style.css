@@ -1,0 +1,205 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+/* navbar-section starts here  */
+.bg-navbar{
+    background: #fff;
+   
+
+}
+.brand-title{
+    
+    color: rgb(122, 116, 116);
+    transition: .2s;
+  
+}
+.brand-title:hover{
+    color: #069c54;
+}
+.styled-nav{
+    color: rgb(122, 116, 116);
+    font-weight: 500;
+    padding: 10px 14px;
+    text-decoration: none; 
+    transition: .5s;
+}
+
+.styled-nav:hover{
+    color: #069c54;
+}
+.styled-nav:focus{
+    color: #069c54;
+}
+/* navbar-section ends here  */
+/* home-setion starts here  */
+/* .home-contents{
+    padding-left: 40px;
+} */
+.home-content-main{
+    margin-top: 60px;
+}
+.testy-title{
+    color: #069c54;
+    font-weight: bold;
+    font-size: 75px;
+}
+.best-try {
+    color: #333;
+    font-weight: bold;
+    font-size: 46px;
+    padding: 15px 0px;
+}
+.btn{
+    color: white;
+    background:#069c54;
+
+}
+/* home-setion ends here  */
+
+/* about-section starts here  */
+.about-title{
+    color: #069c54;
+    font-weight:bold;
+
+}
+.images{
+    margin-bottom:80px;
+}
+.images img {
+    border-radius: 10px;
+
+    
+}
+.about-main{
+    padding-right: 40px;
+    margin-top: -60px;
+}
+
+/* about-section ends here  */
+
+/* offere-section starts here  */
+.offer-title{
+    color:#069c54;
+}
+.offer-our {
+    color: #332;
+}
+.offer-contents{
+    padding: 1% 8%;
+}
+.offer-blog{
+    border: 2px solid #069c54;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+}
+.offer-blog img{
+
+    width: 72px;
+    display: block;
+    margin: auto;
+    color: #069c54;
+    margin-bottom: -54px;
+}
+.excilient{
+    color: #069c54;
+}
+/* offere-section ends here  */
+/* special-section starts here  */
+.special-contents{
+   padding: 1% 12%;    
+}
+.specila-box{
+    padding:15px;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+.specila-box::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 30px;
+    background: #069c54;
+    top: 308px;
+    left: 195px;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+/* special-section ends here  */
+/* app section stars here  */
+.app-contents{
+    padding: 1% 8%;
+}
+.app-title{
+    color: #069c54;
+    font-size: 22px;
+}
+.app-title-2 {
+    color: #333;
+    font-size: 43px;
+}
+.app-images {
+    width: 290px;
+    display: block;
+
+
+}
+.frist-img {
+    width: 135px;
+    margin-right: 10px;
+}
+.secound-img {
+    width: 135px;
+}
+/* app section ends here  */
+/* contact-section starts here  */
+.contact-contents{
+    padding: 8% 8%;
+}
+.talk{
+    color: #069c54;
+    font-size: 24px;
+}
+.contact-title{
+    color: #333;
+    font-weight: bold;
+    font-size: 45px;
+
+  
+}
+/* contact-section ends here  */
+/* footer-information section starts here   */
+.footer-information-contents{
+    padding: 4% 8%;
+}
+.footer-t{
+    color: #069c54;
+    font-size: 30px;
+    padding: 0;
+    margin:0;
+}
+.service{
+    margin-bottom: 40px;
+}
+.service ul li{
+    margin:8px 0px;
+    font-size: 18px;
+    transition: .1s;
+    
+}
+.service ul li:hover{
+    color: #069c54;
+}
+.service ul li i{
+    color: black;
+
+}
+
+/* footer-information section ends here   */
+
